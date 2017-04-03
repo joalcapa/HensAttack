@@ -18,7 +18,7 @@ int main(int, char **) {
 
 	GameModel * gameModel = new GameModel();
 	GameView * gameView = new GameView("Hens-Attack", 700, 700);
-    GameController * gameController = new GameController(gameView, gameModel);
+        GameController * gameController = new GameController(gameView, gameModel);
 	
 	delete gameController;
 	delete gameView;
