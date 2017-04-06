@@ -13,9 +13,10 @@ private:
 	bool isRendering;
 
 public:
-	//Types of action that an actor can perform
+	// Types of action that an actor can perform
 	const static int ACTION_NULL = 0;
 	const static int ACTION_MOVE_TO = 1;
+	// Stakeholder types of implementation
 	const static int BODY_FOX = 8;
 	const static int BODY_HEN = 9;
 	const static int BODY_OBJECT = 10;
