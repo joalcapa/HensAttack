@@ -13,6 +13,7 @@ private:
 	bool isRendering;
 
 public:
+	//Types of action that an actor can perform
 	const static int ACTION_NULL = 0;
 	const static int ACTION_MOVE_TO = 1;
 	const static int BODY_FOX = 8;
