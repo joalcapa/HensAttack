@@ -16,10 +16,10 @@ int main(int, char **) {
 	    return 1;
 	}
 
-	# Initialization of the application oriented to MVC (Model-View-Controller)
-	# GameModel, Establishes the algorithm of analysis and solution of the movements of the hens 
-	# GameView, Establishes the parameters for the SDL context
-	# GameController, Establishes the control of the application, receives the model and the view
+	//Initialization of the application oriented to MVC (Model-View-Controller)
+	//GameModel, Establishes the algorithm of analysis and solution of the movements of the hens 
+	//GameView, Establishes the parameters for the SDL context
+	//GameController, Establishes the control of the application, receives the model and the view
 	GameModel * gameModel = new GameModel();
 	GameView * gameView = new GameView("Hens-Attack", 700, 700);
         GameController * gameController = new GameController(gameView, gameModel);
