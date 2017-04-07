@@ -11,7 +11,7 @@ int main(int, char **) {
 	SDL_Init(SDL_INIT_EVERYTHING);
 
 	if(!IMG_Init (IMG_INIT_PNG)) {
-		std::cerr<<"Error al inicializar las librearias SDL"<<std::endl;
+		std::cerr<<"Error SDL init"<<std::endl;
 	    SDL_Quit();
 	    return 1;
 	}
