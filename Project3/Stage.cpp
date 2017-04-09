@@ -100,6 +100,8 @@ void Stage::mouseClick(SDL_Event event) {
 		momentFox(event);
 }
 
+// Method that receives the event of the mouse, and assigns it to the local method 
+// in charge of the treatment of the action of the fox
 void Stage::mouseMotion(SDL_Event event) {
 	isDirection = isKilling = false;
 	foxFutureX = foxPlayer->getX();
