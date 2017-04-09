@@ -11,6 +11,8 @@ Node::Node(int ** data) {
 
 Node::~Node(void) {}
 
+// Algorithm that assigns the successor actor
+// for the implementation of the data structure of the scenario
 void Node::addNode(Node * node) {
 	if(!headNode)
 		headNode = node;
